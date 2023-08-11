@@ -1,6 +1,6 @@
 {
   "magisk": {
-    "version": "https://github.com/HuskyDG/magisk-files/raw/X/v26.1-delta.apk",
+    "version": "v26.1-delta",
     "versionCode": "26100",
     "link": "https://github.com/HuskyDG/magisk-files/raw/X/v26.1-delta.apk",
     "note": "https://huskydg.github.io/magisk-files/note_stable.md"
