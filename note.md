@@ -1,6 +1,7 @@
-## c9f9ce03-delta
+## c8738323-delta
 
-- Fix apps on sulist cannot request root access
+- Always inject magisk bins to `/system/bin`
+- Randomize su request path to avoid detection
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
