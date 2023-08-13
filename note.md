@@ -1,7 +1,7 @@
-## c8738323-delta
+## dc7419b9-delta
 
-- Always inject magisk bins to `/system/bin`
-- Randomize su request path to avoid detection
+- Refactor mounting mirrors, fix for Infinix devices
+- Move socket path from `$MAGISKTMP` to `/dev`
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
