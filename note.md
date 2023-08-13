@@ -1,7 +1,7 @@
-## dc7419b9-delta
+## 9ff86960-delta
 
-- Refactor mounting mirrors, fix for Infinix devices
-- Move socket path from `$MAGISKTMP` to `/dev`
+- MagiskHide and SuList has been replaced by "Unmount modules" feature
+- Minor changes in mounting mirrors
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
@@ -9,7 +9,7 @@ If you like my work, you can donate me at [PayPal/HuskyDG](http://paypal.me/husk
 
 ### Diffs to official Magisk
 
-- [General] Use MagiskHide/SuList to manage the visibility of modified files by module
+- [General] Use "Unmount modules" to manage the visibility of modified files by module
 - [Manager] Support installing into system partition for emulator
 - [General] Copy required files to `/system` for `addon.d`
 - [Manager] Show all supported languages in Language settings for Chinese ROM
