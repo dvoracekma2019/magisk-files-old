@@ -1,6 +1,6 @@
-## 1ce0c9ec-delta
+## 0bb64ac4-delta
 
-- Make mirrors private to prevent duplicated mounts or leak mountpoint
+- Mounting mirrors doesn't setup mount again if already mounted
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
