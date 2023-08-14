@@ -1,7 +1,6 @@
-## 9ff86960-delta
+## 299bf532-delta
 
-- MagiskHide and SuList has been replaced by "Unmount modules" feature
-- Minor changes in mounting mirrors
+- Introduce new feature for module: pre-init mount. Read document for more information!
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
@@ -22,7 +21,8 @@ If you like my work, you can donate me at [PayPal/HuskyDG](http://paypal.me/husk
 - [Zygisk]: Switch to use native bridge by 5ec1cff
 - [Module] Live patch `sepolicy.rule` if it is not found in `sepolicy.rules` directory
 - [MagiskSU] Do not use local socket path
-- [Module] Simplify inject magisk bins
+- [Module] Always inject magisk bins
+- [MagiskInit] Introduce `early-mount.d/v2` to support pre-Init mount per module
 
 ### Magisk upstream
 
