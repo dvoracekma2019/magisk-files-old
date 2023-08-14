@@ -1,6 +1,6 @@
-## 299bf532-delta
+## 1ce0c9ec-delta
 
-- Introduce new feature for module: pre-init mount. Read document for more information!
+- Make mirrors private to prevent duplicated mounts or leak mountpoint
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 

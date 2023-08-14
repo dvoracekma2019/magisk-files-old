@@ -18,7 +18,7 @@ fi
 - To find the `early-mount.d` directory (Magisk v26+), use this code:
 
 ```
-PRENITDIR/early-mount
+$(magisk --path)/.magisk/early-mount.d
 ```
 
 ### General
