@@ -1,7 +1,6 @@
-## d2a66567-delta Nightly build
+## 24b5daf6-delta Nightly build
 
-- Do not use local socket path
-- Fix root loss after zygote restarted with "Unmount modules by default" enabled
+- Update to v26.3 (fixed preinit mirror)
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
