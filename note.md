@@ -1,6 +1,7 @@
-## b4777ad7-delta
+## d2a66567-delta Nightly build
 
-- Update to Magisk v26.3
+- Do not use local socket path
+- Fix root loss after zygote restarted with "Unmount modules by default" enabled
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
@@ -26,4 +27,5 @@ If you like my work, you can donate me at [PayPal/HuskyDG](http://paypal.me/husk
 
 ### Magisk upstream
 
-- Sync upstream source code to 7826d75
+- Sync upstream source code to 350d0d600
+
