@@ -1,6 +1,6 @@
-## 24b5daf6-delta Nightly build
+## 0fe46c5a-delta Nightly build
 
-- Update to v26.3 (fixed preinit mirror)
+- Should fix bootloop
 
 Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
