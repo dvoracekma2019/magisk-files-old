@@ -1,8 +1,8 @@
-## 87775765-delta Nightly build
+## 0fe46c5a-delta Nightly build
 
-- Sync upstream to official Magisk
+- Should fix bootloop
 
-Canary and Debug are built from the same source code. Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
+Canary and Debug are built from the same source code.  Debug builds have more detailed logs and are suitable for debugging. Canary builds have less logs, are more stable than Debug, and are suitable for most common uses
 
 If you like my work, you can donate me at [PayPal/HuskyDG](http://paypal.me/huskydg)
 
@@ -26,5 +26,5 @@ If you like my work, you can donate me at [PayPal/HuskyDG](http://paypal.me/husk
 
 ### Magisk upstream
 
-- Sync upstream source code to 79a1c39
+- Sync upstream source code to 350d0d600
 
